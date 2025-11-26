@@ -1,0 +1,24 @@
+{
+  "name": "egzon/mes-lms-access",
+  "description": "MyEdSpace LMS access control kata (no frameworks, no DB).",
+  "type": "project",
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyEdSpace\\Lms\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MyEdSpace\\Lms\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
